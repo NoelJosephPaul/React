@@ -2,3 +2,64 @@
 {
     color: red;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.logo {
+    width: 60px;
+    margin: 10px;
+}
+
+.nav-items > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav-items >ul>li {
+    padding:10px;
+    margin: 10px;
+}
+
+.res-card {
+    width:200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(247, 241, 232);
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.res-card:hover
+{
+    box-shadow: 10px black solid;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+
+.search {
+    padding: 10px;
+}
+
+.res-logo
+{
+    width:80%;
+    padding:1px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-btn{
+    margin:20px;
+    cursor: pointer;
+}
